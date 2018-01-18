@@ -23,15 +23,13 @@ function replaceText(v)
 {
 
 
-    v = v.replace(/\b(F|f)uck(ing)?\b/g, "$1ork$2");
-    v = v.replace(/\b(S|s)hit(ing)?\b/g, "$1hirt$2");
-    v = v.replace(/\b(B|b)ullshit(t)(ing)?\b/g, "$1ullshirt$2$3");
-    v = v.replace(/\b(B|b)itch(es)?\b/g, "$1ench$2");
-    v = v.replace(/\b(A|a)ss?\b/g, "$1sh");
-    v = v.replace(/\b(A|a)ss(-)hole?\b/g, "$1sh$2hole");
-    v = v.replace(/\b(D|d)ick(s)?\b/g, "$1ink$2");
-    v = v.replace(/\b(D|d)ickbag(s)?\b/g, "$1inkbag$2");
-
+    v = v.replace(/\b(F|f)uck(\w+)?\b/g, "$1ork$2");
+    v = v.replace(/\b(S|s)hit(\w+)?\b/g, "$1hirt$2");
+    v = v.replace(/\b(B|b)ullshit(\w+)?\b/g, "$1ullshirt$2");
+    v = v.replace(/\b(B|b)itch(\w+)?\b/g, "$1ench$2");
+    v = v.replace(/\b(A|a)ss(\w+)?\b/g, "$1sh$2");
+    v = v.replace(/\b(D|d)ick(\w+)?\b/g, "$1ink$2");
+    v = v.replace(/\b(C|c)unt(\w+)?\b/g, "Janet$2");
 
     return v;
 }
