@@ -13,7 +13,7 @@ Tolerate the news again!
 
 **[Click here to install on Chrome](https://chrome.google.com/webstore/detail/good-place-cursing/clmcpchjhoiohflpnjogblpfcnghgpnn)**
 
-~**Firefox Extension Coming Soon**~
+**\~Firefox Extension Coming Soon\~**
 
 **The Hard Way**
 
